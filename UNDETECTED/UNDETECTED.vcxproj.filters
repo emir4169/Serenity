@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UNDETECTED.cpp">
+    <ClCompile Include="Serenity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
