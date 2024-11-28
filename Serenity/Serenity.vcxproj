@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{9f2738af-b4e7-44fb-be7e-86426c13a6b9}</ProjectGuid>
-    <RootNamespace>UNDETECTED</RootNamespace>
+    <RootNamespace>Serenity</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Serenity</ProjectName>
   </PropertyGroup>
