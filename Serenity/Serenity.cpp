@@ -145,7 +145,7 @@ void CallPrintFunction(roblox_t& robloxInfo) {
 	std::uintptr_t printFunction = (std::uintptr_t)robloxInfo.robloxBase + 0x12DB520;
 
 	unsigned char shellcode[] = { 0x48, 0xB8, 0xFF, 0xEE, 0xDD, 0xCC, 0xBB, 0xAA, 0x00, 0x00, 0xB9, 0x01, 0x00, 0x00, 0x00, 0x48, 0xBA, 0xFF, 0xEE, 0xDD, 0xCC, 0xBB, 0xAA, 0x00, 0x00, 0xFF, 0xD0, 0x48, 0xB8, 0xFF, 0xEE, 0xDD, 0xCC, 0xBB, 0xAA, 0x00, 0x00, 0xFF, 0xE0 };
-	const char* myMessage = "Hello, I'm Serenity your new cheat! Unlike the other cheats, I'm not a pasted piece of garbage. :)";
+	const char* myMessage = "Howdy! I am Serenity, Serenity the Internal!";//"Hello, I'm Serenity your new cheat! Unlike the other cheats, I'm not a pasted piece of garbage. :)";
 
 	void* myMessagePtr = VirtualAllocEx(robloxInfo.hRoblox, 0, 0x1000, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE); // Create message memory
 	WriteProcessMemory(robloxInfo.hRoblox, myMessagePtr, myMessage, std::strlen(myMessage), nullptr); // Write our message into message memorys
